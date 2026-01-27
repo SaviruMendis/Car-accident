@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accident Risk Prediction – Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚦 Accident Risk Prediction System</h1>
+
+    <p class="subtitle">
+        A machine learning–based system for predicting road accident risk
+    </p>
+
+    <h2>📌 About the Model</h2>
+    <p>
+        This system uses a <strong>Linear Regression machine learning model</strong>
+        trained on historical road and traffic data to estimate accident risk.
+    </p>
+
+    <h2>📊 Input Features</h2>
+    <ul>
+        <li>Road type and number of lanes</li>
+        <li>Road curvature</li>
+        <li>Lighting and weather conditions</li>
+        <li>Time of day</li>
+        <li>Road signs and public road status</li>
+        <li>Holiday and school season indicators</li>
+    </ul>
+
+    <h2>🎯 Objective</h2>
+    <p>
+        The goal of this application is to support traffic safety analysis
+        by identifying high-risk road conditions using data-driven predictions.
+    </p>
+
+    <a href="/predict" class="btn">Go to Prediction Page</a>
+</div>
+
+</body>
+</html>
